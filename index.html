@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+	<!-- Percobaan I-1. Halo Dunia -->
+	<head>
+		<title>pengenalan data diri</title>
+	</head>
+	<body>
+			<h1>TUGAS AKHIR</h1>
+	HENDRI MUSTAKIM 1415061019 TEKNIK INFORMATIKA
+
+		
+		<hr/>
+		<hr/>
+		<hr/>
+		
+		
+	</body>
+		<body>
+		<h1>HENDRI MUSTAKIM</h1>
+		<h2>1415061019</h2>
+		<h3>JURUSAN TEKNIK INFORMATIKA</h3>
+		<h4>FAKULTAS TENKNIK</h4>
+		<h5>UNIVERSITAS LAMPUNG</h5>
+		<h6>BANDAR LAMPUNG</h6>
+		<hr/>
+	</body>
+	<body>
+		<h1>MATA KULIAH PEMOGRAMAN WEB</h1>
+		TEKNIK INFORMATIKA
+		<hr/>
+		PRAKTIKUM
+		<h1>PERTAMA</h2>
+		<hr/>
+	</body>
+	<body>
+		<p>latihan contoh  <br/> HENDRI </p>
+		<p><b> HENDRI </b></p>
+		<p><big> HENDRI </big></p>
+		<p><i> HENDRI </i></p>
+		<p><small> HENDRI </small></p>
+		<p><strong> HENDRI </strong></p>
+		<p><sub> HENDRI </sub></p>
+		<p><sup> HENDRI </sup></p>
+		<p><ins> HENDRI </ins></p>
+		<p><del> HENDRI </del></p>
+		<hr/>
+	</body>
+	<body>
+		<img src="Logo-Website-Unila.png" alt="Logo Website Unila"/>
+		<a href="http://www.unila.ac.id/">
+		<img src="http://www.unila.ac.id/wpcontent/uploads/2013/05/Logo-Website-Unila.png"
+		alt="Logo Website Unila"/></a>
+		<a href="http://www.unila.ac.id/" target="_blank"> Website Unila </a>
+	</body>
+	<hr/>
+	<body>
+		<ol type="a">
+			<li>Satu</li>
+			<li>Dua</li>
+			<li>Tiga</li>
+		</ol>
+		<ul>
+			<li>TEKNIK</li>
+			<li>INFORMATIKA</li>
+			<li>UNILA</li>
+		</ul>
+	</body>
+	<hr/>
+	<body>
+		<table border="1">
+			<thead>
+				<td>No</td>
+				<td>Warna</td>
+				<td>Keterangan</td>
+			</thead>
+			<tr>
+				<td>1</td>
+				<td>Merah</td>
+				<td>Berhenti</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Kuning</td>
+				<td rowspan="2">Jalan</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Hijau</td>
+			</tr>
+			<tr>
+				<td><br /></td>
+				<td colspan="2"></td>
+			</tr>
+		</table>
+	</body>
+	<hr/>
+	<body>
+			<form method="GET" action="prosesPost.php"> Silahkan isi data Anda 
+				<input type="hidden" name="halaman" value="1">
+				<table border="1">
+			<tr>
+				<td><label for="nama">Nama lengkap:</label></td>
+				<td><input type="text" name="nama" id="nama"
+				maxlength="40" size="20"></td>
+			</tr>
+			<tr>
+				<td><label for="pass">Password:</label></td>
+				<td><input type="password" name="pass" id="pass"
+				maxlength="8" size="8"></td>
+			</tr>
+			<tr>
+				<td><label for="jenkel">Jenis kelamin:</label></td>
+				<td><input type="radio" name="jenkel" id="jenkel"
+				value="L">Laki-laki<br>
+				<input type="radio" name="jenkel" id="jenkel"
+				value="P">Perempuan</td>
+			</tr>
+			<tr>
+				<td><label for="alamat">Alamat:</label></td>
+				<td><textarea rows="3" cols="30" name="alamat"
+				id="alamat"></textarea></td>
+			</tr>
+			<tr>
+				<td><label for="bayar">Sudah bayar?</label></td>
+				<td><input type="checkbox" name="bayar"
+				id="bayar">Sudah</td>
+			</tr>
+				</table>
+					<input type="submit" value="Kirim">
+					<input type="reset" value="Reset">
+					</form>
+			</body>
+			<hr/>
+				<body>
+		<form method="POST" action="prosesUnggah.php" 
+		enctype="multipart/form-data">
+		<table border="1">
+			<tr>
+				<td><label for="kota">Kota:</label></td>
+				<td>
+				<select name="kota" id="kota">
+					<option value="">pilih kota...</option>
+					<option value="bdg">Bandar Lampung</option>
+					<option value="jkt">Metro</option>
+					<option value="sby">Kotabumi</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="kerja">Pekerjaan:</label></td>
+			<td>
+				<select name="kerja" id="kerja" size="4">
+					<option value="a">Mahasiswa</option>
+					<option value="b">Pegawai swasta</option>
+					<option value="c">Pegawai negeri</option>
+					<option value="d">Wiraswasta</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><label for="bahasa">Bahasa:</label><br>(bisa lebih dari satu)</td>
+		<td>
+			<select name="bahasa" id="bahasa" size="4" multiple>
+				<option value="id">Indonesia</option>
+				<option value="en">Inggris</option>
+				<option value="ch">Cina</option>
+				<option value="fr">Jepang</option>
+			</select>
+		</td>
+		</tr>
+		<tr>
+			<td>Hobi:<br>(bisa lebih dari satu)</td>
+		<td>
+			<input type="checkbox" name="hobi"
+			value="1">Berenang<br>
+			<input type="checkbox" name="hobi"
+			value="2">Memanah<br>
+			<input type="checkbox" name="hobi"
+			value="3">Berkuda
+		</td>
+		</tr>
+		<tr>
+			<td><label for="foto">Foto:</label></td>
+			<td><input type="file" name="foto" id="foto"
+			size="10"></td>
+		</tr>
+		</table>
+			<button type="submit">Kirim </button>
+			<button type="reset">Reset </button>
+			<input type="hidden" name="halaman" value="2">
+		</form>
+	</body>
+	
+	
+</html>
+
